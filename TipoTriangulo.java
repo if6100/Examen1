@@ -14,7 +14,7 @@ public enum TipoTriangulo {
     private TipoTriangulo(String nombre){this.nombre=nombre;}
 
     public String getNombre() {
-        //documentacion
+        //documentacion 123
 
         return nombre;
 
