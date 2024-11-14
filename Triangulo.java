@@ -6,6 +6,7 @@ public class Triangulo {
    private int x=0,y=0,z=0;
 
     public void setX(int x) {
+        //dato 2
         this.x = x;
     }
 
