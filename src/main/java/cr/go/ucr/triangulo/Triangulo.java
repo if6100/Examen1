@@ -8,7 +8,7 @@ public class Triangulo {
    ///12312312
 
     public void setX(int x) {
-        //dato 2
+        //dato 2123
         this.x = x;
     }
 
