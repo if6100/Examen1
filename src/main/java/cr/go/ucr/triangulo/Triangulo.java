@@ -4,9 +4,11 @@ public class Triangulo {
 
    
    private int x=0,y=0,z=0;
+   
+   ///12312312
 
     public void setX(int x) {
-        //dato 2
+        //dato 2123
         this.x = x;
     }
 
