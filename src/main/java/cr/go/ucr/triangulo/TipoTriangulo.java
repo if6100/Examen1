@@ -9,7 +9,9 @@ package cr.go.ucr.triangulo;
  * @author JeArag
  */
 public enum TipoTriangulo {
-    NO_TRIANGULO("NT"),ESCALENO("ES"),EQUILATERO("EQ"),ISOCELES("IS"), CUADRADO("CU");
+
+    NO_TRIANGULO("NT"),ESCALENO("ES"),EQUILATERO("EQ"),ISOCELES("IS"),TIPO_3("tipo3"), ESCALELES("EL"), CUADRADO("CU");
+
     private String nombre;
     private TipoTriangulo(String nombre){this.nombre=nombre;}
 
