@@ -48,7 +48,7 @@ class ComisionVentaTest {
     @Test
     void testCajaBlancaNoPerteneceARangos() {
         Double montoVentaMensual = 100000.01;
-        Double expected = -1.0; // Valor inválido
+        Double expected = -1.0; 
         Double actual = comisionVenta.calcular(montoVentaMensual);
         assertEquals(expected, actual, "Error en valores fuera de los rangos");
     }
