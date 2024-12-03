@@ -1,15 +1,11 @@
 package cr.go.ucr.examen1;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
 /**
- *
- * @author JeArag
+ * @author Jesus Rodriguez - C16536
+ * @date 3 dic. 2024
  */
 public class Rango {
+
     private Double menor;
     private Double mayor;
     private Double valor;
@@ -43,7 +39,4 @@ public class Rango {
     public void setValor(Double valor) {
         this.valor = valor;
     }
-
-   
-    
 }
