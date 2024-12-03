@@ -13,7 +13,7 @@ class ComisionVentaTest {
     @Test
     void testCajaNegraRango_0_1500() {
         Double montoVentaMensual = 1000.00;
-        Double expected = 30.00;
+        Double expected = 30.00; 
         Double actual = comisionVenta.calcular(montoVentaMensual);
         assertEquals(expected, actual, 0.0001, "Error en rango [0.0, 1500.00]");
     }
@@ -21,7 +21,7 @@ class ComisionVentaTest {
     @Test
     void testCajaNegraValorMenorACero() {
         Double montoVentaMensual = -50.00;
-        Double expected = -1.0; 
+        Double expected = -1.0;
         Double actual = comisionVenta.calcular(montoVentaMensual);
         assertEquals(expected, actual, "Error en valores menores a 0.0");
     }
@@ -37,11 +37,10 @@ class ComisionVentaTest {
     // ---------------------
     // PRUEBAS DE CAJA BLANCA
     // ---------------------
-
     @Test
     void testCajaBlancaNull() {
         Double montoVentaMensual = null;
-        Double expected = -1.0;
+        Double expected = -1.0; 
         Double actual = comisionVenta.calcular(montoVentaMensual);
         assertEquals(expected, actual, "Error en caso de entrada nula");
     }
@@ -49,7 +48,7 @@ class ComisionVentaTest {
     @Test
     void testCajaBlancaNoPerteneceARangos() {
         Double montoVentaMensual = 100000.01;
-        Double expected = -1.0;
+        Double expected = -1.0; // Valor inválido
         Double actual = comisionVenta.calcular(montoVentaMensual);
         assertEquals(expected, actual, "Error en valores fuera de los rangos");
     }
