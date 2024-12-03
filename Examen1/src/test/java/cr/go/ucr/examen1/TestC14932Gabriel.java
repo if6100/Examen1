@@ -96,8 +96,8 @@ public class TestC14932Gabriel {
     @Test
     public void testSetYGetRango() {
         Rango rango = new Rango(750.0, 800.0, 0.10);
-        rango.setMenor(775.0);
-        rango.setMayor(725.0);
+        rango.setMenor(725.0);
+        rango.setMayor(775.0);
         rango.setValor(0.20);
     }
     
