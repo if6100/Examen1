@@ -7,7 +7,7 @@ package cr.go.ucr.examen1;
 
 /**
  *
- * @author JeArag
+ * @author Kendall
  */
 public class Rango {
     private Double menor;
